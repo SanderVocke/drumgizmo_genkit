@@ -14,18 +14,41 @@
       <channelmap in="R" out="R"/>
     </instrument>
     <instrument name="FAT_HH" file="Jake Reed Super Dry Drums 3_instruments/FAT_HH.xml">
+      <chokes>
+        <choke instrument="TIGHT_HH"/>
+        <choke instrument="LONG_SIZZLE_HH"/>
+        <choke instrument="SIZZLE_HH"/>
+        <choke instrument="CHUNKY_HH"/>
+      </chokes>
       <channelmap in="L" out="L"/>
       <channelmap in="R" out="R"/>
     </instrument>
     <instrument name="TIGHT_HH" file="Jake Reed Super Dry Drums 3_instruments/TIGHT_HH.xml">
+      <chokes>
+        <choke instrument="SIZZLE_HH"/>
+        <choke instrument="LONG_SIZZLE_HH"/>
+        <choke instrument="CHUNKY_HH"/>
+        <choke instrument="FAT_HH"/>
+      </chokes>
       <channelmap in="L" out="L"/>
       <channelmap in="R" out="R"/>
     </instrument>
     <instrument name="CHUNKY_HH" file="Jake Reed Super Dry Drums 3_instruments/CHUNKY_HH.xml">
+      <chokes>
+        <choke instrument="TIGHT_HH"/>
+        <choke instrument="LONG_SIZZLE_HH"/>
+        <choke instrument="SIZZLE_HH"/>
+        <choke instrument="FAT_HH"/>
+      </chokes>
       <channelmap in="L" out="L"/>
       <channelmap in="R" out="R"/>
     </instrument>
     <instrument name="SIZZLE_HH" file="Jake Reed Super Dry Drums 3_instruments/SIZZLE_HH.xml">
+      <chokes>
+        <choke instrument="TIGHT_HH"/>
+        <choke instrument="LONG_SIZZLE_HH"/>
+        <choke instrument="FAT_HH"/>
+      </chokes>
       <channelmap in="L" out="L"/>
       <channelmap in="R" out="R"/>
     </instrument>

@@ -29,5 +29,6 @@ Some examples of generated kit files are in the **example_kits** folder, each wi
 * Naive hit power mapping (linear scale directly taken from the V1-V16 suffixes of the files) - can be compensated with velocity curve in Gizmo plugin.
 * Only a stereo channel mapping baked in at the moment.
 * No MIDI map is generated, because that is simply a mapping from notes to instruments. Writing that down in a Python dictionary is equivalent to just writing the mapping XML yourself. Note however that some examples are included in the Generated Outputs.
+* Hi-hat choking works, but DrumGizmo does not support Hi-hat open/closed control with a CC value.
 
 Note however, that the resulting XMLs provide a great starting point for further manual tweaks. Or better yet, the config .py file can be tweaked to automatically re-generate the kit with different properties. For example, a multi-channel version wouldn't be hard to make this way.

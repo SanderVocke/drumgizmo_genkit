@@ -17,4 +17,3 @@ Thrown together by starting with some basic Roland mappings, then adding left-ov
 ## Other notes
 
 * No Hi-hat open/close support yet for an E-kit.
-* Open hi-hat doesn't stop when closed hi-hat is played.

@@ -1,8 +1,10 @@
-from typing import TypedDict, Callable, List
+from typing import TypedDict, Callable, List, Union
 import argparse
 import glob
 import os
 import xml.dom.minidom
+import copy
+from dataclasses import dataclass
 
 class SampleFile(TypedDict):
     path: str
@@ -17,10 +19,27 @@ class Sample(TypedDict):
 
 ParsePathCallable = Callable[[str], List[Sample]]
 
+@dataclass
+class InstrumentChokesOthers:
+    instrument: str
+    chokes: List[str]
+
+InstrumentFeature = Union[InstrumentChokesOthers]
+
 class GenKitConfig(TypedDict):
     default_name: str
     default_description: str
     parse_path_fn: ParsePathCallable
+    instrument_features: List[InstrumentFeature]
+    
+plugin_script_types = {
+    'Sample': Sample,
+    'SampleFile': SampleFile,
+    'ParsePathCallable': ParsePathCallable,
+    'GenKitConfig': GenKitConfig,
+    'InstrumentChokesOthers': InstrumentChokesOthers,
+    'InstrumentFeature': InstrumentFeature,
+}
 
 def instrument_to_xml(instrument, name):
     doc = xml.dom.minidom.Document()
@@ -72,6 +91,14 @@ def generate_drumkit_xml(name, description, instruments, instruments_dir):
         inst.setAttribute('name', instrument_name)
         inst.setAttribute('file', f'{instruments_dir}/{instrument_name}.xml')
         instruments_node.appendChild(inst)
+        
+        if 'chokes' in instrument and len(instrument['chokes']) > 0:
+            chokes = doc.createElement('chokes')
+            inst.appendChild(chokes)
+            for choke in instrument['chokes']:
+                choke_node = doc.createElement('choke')
+                choke_node.setAttribute('instrument', choke)
+                chokes.appendChild(choke_node)
 
         for channel_name in ['L', 'R']:
             chan = doc.createElement('channelmap')
@@ -80,6 +107,17 @@ def generate_drumkit_xml(name, description, instruments, instruments_dir):
             inst.appendChild(chan)
     return doc
 
+def apply_instrument_choke(instruments, feature : InstrumentChokesOthers):
+    if feature.instrument in instruments:
+        instrument = instruments[feature.instrument]
+        for chokes in feature.chokes:
+            instrument['chokes'].add(chokes)
+
+def apply_instrument_feature(instruments, feature : InstrumentFeature):
+    if isinstance(feature, InstrumentChokesOthers):
+        apply_instrument_choke(instruments, feature)
+    else:
+        raise Exception(f"Unknown instrument feature type: {type(feature)}")
 
 def main():
     parser = argparse.ArgumentParser(
@@ -98,12 +136,7 @@ def main():
     with open(args.config, 'r') as config_file:
         config_file_code = config_file.read()
 
-    exec_globals = {
-        'Sample': Sample,
-        'SampleFile': SampleFile,
-        'ParsePathCallable': ParsePathCallable,
-        'GenKitConfig': GenKitConfig,
-    }
+    exec_globals = copy.copy(plugin_script_types)
     exec(config_file_code, exec_globals)
 
     if not 'genkit_config' in exec_globals:
@@ -130,7 +163,8 @@ def main():
         instrument_name = s['instrument']
         if instrument_name not in instruments:
             instruments[instrument_name] = {
-                'samples': {}
+                'samples': {},
+                'chokes': set(),
             }
         instrument = instruments[instrument_name]
 
@@ -150,6 +184,10 @@ def main():
         max_power = max(1.0, max([s['power'] for s in inst['samples'].values()]))
         for s in inst['samples'].values():
             s['power'] = s['power'] / max_power
+    
+    print("Applying instrument features")
+    for feature in config['instrument_features']:
+        apply_instrument_feature(instruments, feature)
 
     if args.verbose:
         print("All found instruments:")
