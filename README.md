@@ -3,7 +3,7 @@
 Convenience scripts for generating DrumGizmo kits from sample libraries on the command line.
 This was initially concieved for generating a kit from Jake Reed's "Super Dry Drums" packs.
 
-Not tested yet.
+Status is working but very fresh - the kit is not very refined yet. Contributions are very welcome!
 
 ## Usage
 
