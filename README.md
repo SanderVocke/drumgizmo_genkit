@@ -3,11 +3,14 @@
 Convenience scripts for generating DrumGizmo kits from sample libraries on the command line.
 This was initially concieved for generating a kit from Jake Reed's "Super Dry Drums" packs.
 
-Not tested yet.
+Status is working but very fresh - the kit is not very refined yet. Contributions are very welcome!
 
 ## Usage
 
-The core of the script can generate XML files compatible with DrumGizmo. To deal with the specific structure and filenames of your sample pack, you need to provide a config file which is a Python file itself.
+The core of the script can generate XML files compatible with DrumGizmo.
+
+To deal with the specific structure and filenames of your sample pack, you need to provide a plugin "config file" which is a python script.
+
 That Python file should be able to parse the .wav paths of the sample pack and return the metadata needed for the XML generator to do its work.
 For an example config, see `configs/jake_reed_sdd_3.py`.
 
