@@ -7,7 +7,10 @@ Status is working but very fresh - the kit is not very refined yet. Contribution
 
 ## Usage
 
-The core of the script can generate XML files compatible with DrumGizmo. To deal with the specific structure and filenames of your sample pack, you need to provide a config file which is a Python file itself.
+The core of the script can generate XML files compatible with DrumGizmo.
+
+To deal with the specific structure and filenames of your sample pack, you need to provide a plugin "config file" which is a python script.
+
 That Python file should be able to parse the .wav paths of the sample pack and return the metadata needed for the XML generator to do its work.
 For an example config, see `configs/jake_reed_sdd_3.py`.
 
