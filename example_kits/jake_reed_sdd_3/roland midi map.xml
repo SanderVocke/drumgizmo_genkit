@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<midimap>
+  <map note="36" instr="KICK"/>
+  <map note="38" instr="SNARE_A"/>
+  <map note="40" instr="SNARE_A_RIM_CLASSIC"/>
+  <map note="41" instr="SNARE_A_RIM_DARK"/>
+  <map note="42" instr="SNARE_A_RIM_THIN"/>
+  <map note="44" instr="CLOSED_HH_FOOT"/>
+
+  <map note="45" instr="TOM_LO_SNARES_ON"/>
+  <map note="48" instr="TOM_HI_SNARES_ON"/>
+
+  <map note="49" instr="MY_FAVE_CRASH"/>
+
+  <map note="50" instr="TIGHT_HH"/>
+  <map note="51" instr="FAT_HH"/>
+  <map note="52" instr="CHUNKY_HH"/>
+  <map note="53" instr="SIZZLE_HH"/>
+  <map note="54" instr="LONG_SIZZLE_HH"/>
+
+  <map note="59" instr="RIDE"/>
+  <map note="61" instr="RIDE_BELL"/>
+
+  <map note="62" instr="LITE_CRASHES"/>
+  <map note="63" instr="RIDE_CRASHES"/>
+
+  <map note="64" instr="SNARE_A_BUZZ"/>
+  <map note="65" instr="SNARE_A_FLAM"/>
+  <map note="66" instr="SNARE_A_DBL"/>
+</midimap>

@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<instrument name="RIDE_BELL" version="2.0">
+  <samples>
+    <sample name="JR_SDD3_RIDE_V2.wav" power="0.2222222222222222">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V2.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V2.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_RIDE_V1.wav" power="0.1111111111111111">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V1.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V1.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_RIDE_V4.wav" power="0.4444444444444444">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V4.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V4.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_RIDE_V3.wav" power="0.3333333333333333">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V3.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V3.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_RIDE_V5.wav" power="0.5555555555555556">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V5.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V5.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_RIDE_V6.wav" power="0.6666666666666666">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V6.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V6.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_RIDE_V9.wav" power="1.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V9.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V9.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_RIDE_V8.wav" power="0.8888888888888888">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V8.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V8.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_RIDE_V7.wav" power="0.7777777777777778">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V7.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V7.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_RIDE_V11.wav" power="0.1111111111111111">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V11.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V11.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_RIDE_V12.wav" power="0.2222222222222222">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V12.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V12.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_RIDE_V13.wav" power="0.3333333333333333">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V13.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V13.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_RIDE_V10.wav" power="0.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V10.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 RIDE BELL/JR_SDD3_RIDE_V10.wav" filechannel="2"/>
+    </sample>
+  </samples>
+</instrument>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<instrument name="ROOM_TONE" version="2.0">
+  <samples>
+    <sample name="ROOM_TONE.wav" power="1.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 ROOM TONE/ROOM_TONE.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 ROOM TONE/ROOM_TONE.wav" filechannel="2"/>
+    </sample>
+    <sample name="ROOM_TONE_ALTMIX.wav" power="1.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 ROOM TONE/ROOM_TONE_ALTMIX.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 ROOM TONE/ROOM_TONE_ALTMIX.wav" filechannel="2"/>
+    </sample>
+  </samples>
+</instrument>

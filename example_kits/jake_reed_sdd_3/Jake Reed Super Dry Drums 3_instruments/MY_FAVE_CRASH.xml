@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<instrument name="MY_FAVE_CRASH" version="2.0">
+  <samples>
+    <sample name="JR_SDD3_FAVE_CR_V8.wav" power="1.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V8.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V8.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_FAVE_CR_V1.wav" power="0.125">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V1.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V1.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_FAVE_CR_V4.wav" power="0.5">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V4.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V4.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_FAVE_CR_V2.wav" power="0.25">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V2.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V2.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_FAVE_CR_V7.wav" power="0.875">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V7.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V7.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_FAVE_CR_V6.wav" power="0.75">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V6.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V6.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_FAVE_CR_V5.wav" power="0.625">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V5.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V5.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_FAVE_CR_V3.wav" power="0.375">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V3.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 MY FAVE CRASH/JR_SDD3_FAVE_CR_V3.wav" filechannel="2"/>
+    </sample>
+  </samples>
+</instrument>

@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<instrument name="SNARE_A_DBL" version="2.0">
+  <samples>
+    <sample name="JR_SDD3_SN_DBL_A_V1_a.wav a" power="0.25">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V1/JR_SDD3_SN_DBL_A_V1_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V1/JR_SDD3_SN_DBL_A_V1_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V1_b.wav b" power="0.25">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V1/JR_SDD3_SN_DBL_A_V1_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V1/JR_SDD3_SN_DBL_A_V1_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V1_c.wav c" power="0.25">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V1/JR_SDD3_SN_DBL_A_V1_c.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V1/JR_SDD3_SN_DBL_A_V1_c.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V1_d.wav d" power="0.25">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V1/JR_SDD3_SN_DBL_A_V1_d.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V1/JR_SDD3_SN_DBL_A_V1_d.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V2_a.wav a" power="0.5">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V2/JR_SDD3_SN_DBL_A_V2_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V2/JR_SDD3_SN_DBL_A_V2_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V2_b.wav b" power="0.5">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V2/JR_SDD3_SN_DBL_A_V2_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V2/JR_SDD3_SN_DBL_A_V2_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V2_c.wav c" power="0.5">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V2/JR_SDD3_SN_DBL_A_V2_c.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V2/JR_SDD3_SN_DBL_A_V2_c.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V2_d.wav d" power="0.5">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V2/JR_SDD3_SN_DBL_A_V2_d.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V2/JR_SDD3_SN_DBL_A_V2_d.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V2_e.wav e" power="0.5">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V2/JR_SDD3_SN_DBL_A_V2_e.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V2/JR_SDD3_SN_DBL_A_V2_e.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V3_a.wav a" power="0.75">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V3/JR_SDD3_SN_DBL_A_V3_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V3/JR_SDD3_SN_DBL_A_V3_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V3_d.wav d" power="0.75">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V3/JR_SDD3_SN_DBL_A_V3_d.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V3/JR_SDD3_SN_DBL_A_V3_d.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V3_c.wav c" power="0.75">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V3/JR_SDD3_SN_DBL_A_V3_c.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V3/JR_SDD3_SN_DBL_A_V3_c.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V3_b.wav b" power="0.75">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V3/JR_SDD3_SN_DBL_A_V3_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V3/JR_SDD3_SN_DBL_A_V3_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V4_b.wav b" power="1.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V4/JR_SDD3_SN_DBL_A_V4_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V4/JR_SDD3_SN_DBL_A_V4_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V4_c.wav c" power="1.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V4/JR_SDD3_SN_DBL_A_V4_c.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V4/JR_SDD3_SN_DBL_A_V4_c.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V4_d.wav d" power="1.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V4/JR_SDD3_SN_DBL_A_V4_d.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V4/JR_SDD3_SN_DBL_A_V4_d.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_SN_DBL_A_V4_a.wav a" power="1.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V4/JR_SDD3_SN_DBL_A_V4_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 SNARE A DBL/SDD 3 SNARE A DBL V4/JR_SDD3_SN_DBL_A_V4_a.wav" filechannel="2"/>
+    </sample>
+  </samples>
+</instrument>

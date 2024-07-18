@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<instrument name="LONG_SIZZLE_HH" version="2.0">
+  <samples>
+    <sample name="JR_SDD3_L_SIZ_HH_V1_a.wav a" power="0.16666666666666666">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V1/JR_SDD3_L_SIZ_HH_V1_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V1/JR_SDD3_L_SIZ_HH_V1_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_L_SIZ_HH_V1_b.wav b" power="0.16666666666666666">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V1/JR_SDD3_L_SIZ_HH_V1_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V1/JR_SDD3_L_SIZ_HH_V1_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_L_SIZ_HH_V2_a.wav a" power="0.3333333333333333">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V2/JR_SDD3_L_SIZ_HH_V2_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V2/JR_SDD3_L_SIZ_HH_V2_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_L_SIZ_HH_V2_b.wav b" power="0.3333333333333333">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V2/JR_SDD3_L_SIZ_HH_V2_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V2/JR_SDD3_L_SIZ_HH_V2_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_L_SIZ_HH_V3_b.wav b" power="0.5">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V3/JR_SDD3_L_SIZ_HH_V3_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V3/JR_SDD3_L_SIZ_HH_V3_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_L_SIZ_HH_V3_a.wav a" power="0.5">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V3/JR_SDD3_L_SIZ_HH_V3_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V3/JR_SDD3_L_SIZ_HH_V3_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_L_SIZ_HH_V4_b.wav b" power="0.6666666666666666">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V4/JR_SDD3_L_SIZ_HH_V4_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V4/JR_SDD3_L_SIZ_HH_V4_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_L_SIZ_HH_V4_a.wav a" power="0.6666666666666666">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V4/JR_SDD3_L_SIZ_HH_V4_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V4/JR_SDD3_L_SIZ_HH_V4_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_L_SIZ_HH_V5_b.wav b" power="0.8333333333333334">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V5/JR_SDD3_L_SIZ_HH_V5_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V5/JR_SDD3_L_SIZ_HH_V5_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_L_SIZ_HH_V5_a.wav a" power="0.8333333333333334">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V5/JR_SDD3_L_SIZ_HH_V5_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V5/JR_SDD3_L_SIZ_HH_V5_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_L_SIZ_HH_V6_a.wav a" power="1.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V6/JR_SDD3_L_SIZ_HH_V6_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V6/JR_SDD3_L_SIZ_HH_V6_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_L_SIZ_HH_V6_b.wav b" power="1.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V6/JR_SDD3_L_SIZ_HH_V6_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 LONG SIZZLE HH/SDD 3 LONG SIZZLE HH V6/JR_SDD3_L_SIZ_HH_V6_b.wav" filechannel="2"/>
+    </sample>
+  </samples>
+</instrument>

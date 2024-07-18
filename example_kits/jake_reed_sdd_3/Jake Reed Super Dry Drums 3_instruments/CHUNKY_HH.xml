@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<instrument name="CHUNKY_HH" version="2.0">
+  <samples>
+    <sample name="JR_SDD3_CHUNK_HH_V1_a.wav a" power="0.125">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V1/JR_SDD3_CHUNK_HH_V1_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V1/JR_SDD3_CHUNK_HH_V1_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V1_b.wav b" power="0.125">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V1/JR_SDD3_CHUNK_HH_V1_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V1/JR_SDD3_CHUNK_HH_V1_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V1_c.wav c" power="0.125">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V1/JR_SDD3_CHUNK_HH_V1_c.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V1/JR_SDD3_CHUNK_HH_V1_c.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V1_d.wav d" power="0.125">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V1/JR_SDD3_CHUNK_HH_V1_d.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V1/JR_SDD3_CHUNK_HH_V1_d.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V2_b.wav b" power="0.25">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V2/JR_SDD3_CHUNK_HH_V2_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V2/JR_SDD3_CHUNK_HH_V2_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V2_a.wav a" power="0.25">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V2/JR_SDD3_CHUNK_HH_V2_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V2/JR_SDD3_CHUNK_HH_V2_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V2_c.wav c" power="0.25">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V2/JR_SDD3_CHUNK_HH_V2_c.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V2/JR_SDD3_CHUNK_HH_V2_c.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V2_d.wav d" power="0.25">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V2/JR_SDD3_CHUNK_HH_V2_d.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V2/JR_SDD3_CHUNK_HH_V2_d.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V3_b.wav b" power="0.375">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V3/JR_SDD3_CHUNK_HH_V3_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V3/JR_SDD3_CHUNK_HH_V3_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V3_c.wav c" power="0.375">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V3/JR_SDD3_CHUNK_HH_V3_c.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V3/JR_SDD3_CHUNK_HH_V3_c.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V3_d.wav d" power="0.375">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V3/JR_SDD3_CHUNK_HH_V3_d.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V3/JR_SDD3_CHUNK_HH_V3_d.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V3_a.wav a" power="0.375">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V3/JR_SDD3_CHUNK_HH_V3_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V3/JR_SDD3_CHUNK_HH_V3_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V4_a.wav a" power="0.5">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V4/JR_SDD3_CHUNK_HH_V4_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V4/JR_SDD3_CHUNK_HH_V4_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V4_c.wav c" power="0.5">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V4/JR_SDD3_CHUNK_HH_V4_c.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V4/JR_SDD3_CHUNK_HH_V4_c.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V4_b.wav b" power="0.5">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V4/JR_SDD3_CHUNK_HH_V4_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V4/JR_SDD3_CHUNK_HH_V4_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V4_d.wav d" power="0.5">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V4/JR_SDD3_CHUNK_HH_V4_d.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V4/JR_SDD3_CHUNK_HH_V4_d.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V5_b.wav b" power="0.625">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V5/JR_SDD3_CHUNK_HH_V5_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V5/JR_SDD3_CHUNK_HH_V5_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V5_c.wav c" power="0.625">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V5/JR_SDD3_CHUNK_HH_V5_c.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V5/JR_SDD3_CHUNK_HH_V5_c.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V5_a.wav a" power="0.625">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V5/JR_SDD3_CHUNK_HH_V5_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V5/JR_SDD3_CHUNK_HH_V5_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V5_d.wav d" power="0.625">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V5/JR_SDD3_CHUNK_HH_V5_d.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V5/JR_SDD3_CHUNK_HH_V5_d.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V6_b.wav b" power="0.75">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V6/JR_SDD3_CHUNK_HH_V6_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V6/JR_SDD3_CHUNK_HH_V6_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V6_a.wav a" power="0.75">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V6/JR_SDD3_CHUNK_HH_V6_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V6/JR_SDD3_CHUNK_HH_V6_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V6_c.wav c" power="0.75">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V6/JR_SDD3_CHUNK_HH_V6_c.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V6/JR_SDD3_CHUNK_HH_V6_c.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V6_d.wav d" power="0.75">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V6/JR_SDD3_CHUNK_HH_V6_d.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V6/JR_SDD3_CHUNK_HH_V6_d.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V7_a.wav a" power="0.875">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V7/JR_SDD3_CHUNK_HH_V7_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V7/JR_SDD3_CHUNK_HH_V7_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V7_b.wav b" power="0.875">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V7/JR_SDD3_CHUNK_HH_V7_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V7/JR_SDD3_CHUNK_HH_V7_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V7_c.wav c" power="0.875">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V7/JR_SDD3_CHUNK_HH_V7_c.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V7/JR_SDD3_CHUNK_HH_V7_c.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V7_d.wav d" power="0.875">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V7/JR_SDD3_CHUNK_HH_V7_d.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V7/JR_SDD3_CHUNK_HH_V7_d.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V8_a.wav a" power="1.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V8/JR_SDD3_CHUNK_HH_V8_a.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V8/JR_SDD3_CHUNK_HH_V8_a.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V8_b.wav b" power="1.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V8/JR_SDD3_CHUNK_HH_V8_b.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V8/JR_SDD3_CHUNK_HH_V8_b.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V8_c.wav c" power="1.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V8/JR_SDD3_CHUNK_HH_V8_c.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V8/JR_SDD3_CHUNK_HH_V8_c.wav" filechannel="2"/>
+    </sample>
+    <sample name="JR_SDD3_CHUNK_HH_V8_d.wav d" power="1.0">
+      <audiofile channel="L" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V8/JR_SDD3_CHUNK_HH_V8_d.wav" filechannel="1"/>
+      <audiofile channel="R" file="../../../JAKE REED SUPER DEAD DRUMS VOL 3/SDD VOL 3 ONE SHOTS/SDD 3 HIHAT/SDD 3 CHUNKY HH/SDD 3 CHUNKY HH V8/JR_SDD3_CHUNK_HH_V8_d.wav" filechannel="2"/>
+    </sample>
+  </samples>
+</instrument>

@@ -48,7 +48,7 @@ def instrument_to_xml(instrument, name):
         samples.appendChild(sample)
     return doc
 
-def generate_drumkit_xml(name, description, instruments):
+def generate_drumkit_xml(name, description, instruments, instruments_dir):
     doc = xml.dom.minidom.Document()
 
     top = doc.createElement('drumkit')
@@ -70,7 +70,7 @@ def generate_drumkit_xml(name, description, instruments):
     for instrument_name,instrument in instruments.items():
         inst = doc.createElement('instrument')
         inst.setAttribute('name', instrument_name)
-        inst.setAttribute('file', f'Instruments/{instrument_name}.xml')
+        inst.setAttribute('file', f'{instruments_dir}/{instrument_name}.xml')
         instruments_node.appendChild(inst)
 
         for channel_name in ['L', 'R']:
@@ -89,7 +89,8 @@ def main():
     parser.add_argument('-c', '--config', type=str, required=True, help="The config .py file to use")
     parser.add_argument('-r', '--root', type=str, required=True, help="The root path of the sample library")
     parser.add_argument('-v', '--verbose', action='store_true', help="Verbose output for debugging")
-    parser.add_argument('-o', '--output_dir', type=str, help="Output directory in which to store the XML files")
+    parser.add_argument('-o', '--output-dir', type=str, help="Output directory in which to store the XML files")
+    parser.add_argument('-a', '--auto-relative', action='store_true', help="Automatically make paths relative to the root")
 
     args = parser.parse_args()
 
@@ -146,7 +147,7 @@ def main():
 
     print("Remapping power values to linear scale")
     for name,inst in instruments.items():
-        max_power = max([s['power'] for s in inst['samples'].values()])
+        max_power = max(1.0, max([s['power'] for s in inst['samples'].values()]))
         for s in inst['samples'].values():
             s['power'] = s['power'] / max_power
 
@@ -164,18 +165,27 @@ def main():
         print("Output dir already exists, please delete it first.")
         exit(1)
     
+    instruments_dir = os.path.join(args.output_dir, f"{config['default_name']}_instruments")
+        
+    if args.auto_relative:
+        print("Resolving relative paths")
+        for name,inst in instruments.items():
+            for s in inst['samples'].values():
+                for f in s['files']:
+                    f['path'] = os.path.relpath(os.path.join(args.root, f['path']), instruments_dir)
+    
     os.makedirs(args.output_dir)
-    os.makedirs(os.path.join(args.output_dir, "Instruments"))
+    os.makedirs(instruments_dir)
 
     drumkit_name = config['default_name']
     drumkit_description = config['default_description']
     
     for name,inst in instruments.items():
-        with open(os.path.join(args.output_dir, f'Instruments/{name}.xml'), 'w') as file:
+        with open(os.path.join(instruments_dir, f'{name}.xml'), 'w') as file:
             file.write(instrument_to_xml(inst, name).toprettyxml(indent='  '))
     
     with open(os.path.join(args.output_dir, f'{drumkit_name}.xml'), 'w') as file:
-        file.write(generate_drumkit_xml(drumkit_name, drumkit_description, instruments).toprettyxml(indent='  '))
+        file.write(generate_drumkit_xml(drumkit_name, drumkit_description, instruments, os.path.relpath(instruments_dir, args.output_dir)).toprettyxml(indent='  '))
 
 if __name__ == "__main__":
     main()

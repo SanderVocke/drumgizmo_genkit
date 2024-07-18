@@ -20,9 +20,12 @@ def parse_path(path : str) -> List[Sample]:
     if len(path_parts) < 2:
         raise Exception(f"Jake reed SDD 3 audio file path not deep enough: {path}")
 
-    instrument_name = path_parts[0].replace('SDD 3 ', '').strip()
-    sample_name = path_parts[-1].strip()
-    filename = sample_name
+    instrument_name = (
+        path_parts[-2] if len(path_parts) < 3 or not re.match(rf'{path_parts[-3]} V[0-9]+', path_parts[-2]) # Instrument subfolder
+        else path_parts[-3]                                                                                 # Velocity subfolder
+    ).replace('SDD 3 ', '').replace(' ', '_').strip()
+    sample_name = path_parts[-1].strip().replace(' ', '_')
+    filename = path_parts[-1].strip()
 
     match = re.match(r'.*_([a-z])\.wav', filename)
     if match:
