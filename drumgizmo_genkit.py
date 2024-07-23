@@ -15,6 +15,7 @@ class Sample(TypedDict):
     instrument: str
     name: str
     power: float
+    openness: float
     files: List[SampleFile]
 
 ParsePathCallable = Callable[[str], List[Sample]]
@@ -24,7 +25,16 @@ class InstrumentChokesOthers:
     instrument: str
     chokes: List[str]
 
-InstrumentFeature = Union[InstrumentChokesOthers]
+class ContinuousHihatEntry(TypedDict):
+    instrument: str
+    openness: float
+
+@dataclass
+class ContinuousHihat:
+    hihat_steps: List[ContinuousHihatEntry]
+    combined_instrument_name: str
+
+InstrumentFeature = Union[InstrumentChokesOthers, ContinuousHihat]
 
 class GenKitConfig(TypedDict):
     default_name: str
@@ -39,6 +49,8 @@ plugin_script_types = {
     'GenKitConfig': GenKitConfig,
     'InstrumentChokesOthers': InstrumentChokesOthers,
     'InstrumentFeature': InstrumentFeature,
+    'ContinuousHihatEntry': ContinuousHihatEntry,
+    'ContinuousHihat': ContinuousHihat,
 }
 
 def instrument_to_xml(instrument, name):
@@ -56,6 +68,8 @@ def instrument_to_xml(instrument, name):
         sample = doc.createElement('sample')
         sample.setAttribute('name', skey)
         sample.setAttribute('power', str(sval['power']))
+        if 'openness' in sval and sval['openness'] is not None:
+            sample.setAttribute('openness', str(sval['openness']))
 
         for f in sval['files']:
             file = doc.createElement('audiofile')
@@ -112,10 +126,27 @@ def apply_instrument_choke(instruments, feature : InstrumentChokesOthers):
         instrument = instruments[feature.instrument]
         for chokes in feature.chokes:
             instrument['chokes'].add(chokes)
+            
+def create_continuous_hihat(instruments, feature : ContinuousHihat):
+    combined_instrument = {
+        'samples': {},
+        'chokes': set(),
+    }
+    for entry in feature.hihat_steps:
+        if entry['instrument'] not in instruments:
+            raise Exception(f"Continuous hihat entry instrument {entry['instrument']} not found.")
+        from_inst = instruments[entry['instrument']]
+        for skey,sval in from_inst['samples'].items():
+            if skey not in combined_instrument['samples']:
+                combined_instrument['samples'][skey] = sval
+                combined_instrument['samples'][skey]['openness'] = entry['openness']
+    instruments[feature.combined_instrument_name] = combined_instrument
 
 def apply_instrument_feature(instruments, feature : InstrumentFeature):
     if isinstance(feature, InstrumentChokesOthers):
         apply_instrument_choke(instruments, feature)
+    elif isinstance(feature, ContinuousHihat):
+        create_continuous_hihat(instruments, feature)
     else:
         raise Exception(f"Unknown instrument feature type: {type(feature)}")
 
